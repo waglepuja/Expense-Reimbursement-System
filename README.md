@@ -22,5 +22,5 @@ To-do list:
 * Users can upload an image of their receipt when submitting reimbursement requests
 * Allow administrators to submit reimbursement requests for other administrators to approve or deny
 ## Getting Started
-* git clone 
+* git clone https://github.com/waglepuja/Expense-Reimbursement-System.git
 
