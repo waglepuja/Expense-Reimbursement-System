@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+  }
+  
+  h1{
+  padding-top: 3rem;
+  text-align:center;
+  }
+  
+  .forms{
+  	margin-top:3rem;
+  }
+  
+  .footer{
+  	background-color: #808080;
+  	height: 10vh;
+  	margin-top: 12rem;
+  }
+  
+  .footer p{
+  	color:white;
+  	text-align:center;
+  	font-size: 1.5rem;
+  	padding-top:20px;  	
+  }

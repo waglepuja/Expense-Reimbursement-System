@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="./css/employee.css">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+	<script>
+		function preventBack(){
+			window.history.forward();
+		}
+		setTimeout("preventBack()", 0);
+		window.onunload = function(){
+			null
+		};
+	</script>
+</head>
+<body>
+
+
+
+	<nav class="navbar navbar-dark bg-success justify-content-between">
+		<a class="navbar-brand"></a>
+		<form class="form-inline" action="/ProjectOne/logOut.change">			
+			<button class="btn btn-dark my-2 my-sm-0" type="submit">Logout</button>
+		</form>
+	</nav>
+
+	<div class="container">
+		<div class="manager">
+			<h1>View Your Past Tickets</h1>
+			
+
+			<table class="table" id="customers">
+				<thead>
+					<tr>
+						<th scope="col">Id</th>
+						<th scope="col">Amount</th>
+						<th scope="col">Submitted Date</th>
+						<th scope="col">Resolved Date</th>
+						<th scope="col">Description</th>
+						<th scope="col">Resolver</th>
+						<th scope="col">Status</th>
+						<th scope="col">Type</th>
+
+					</tr>
+				</thead>
+				<tbody id="reimInfo">
+
+				</tbody>
+			</table>
+
+			
+			<button type="button" class="btn btn-dark" id="div2" onclick="addReimbursementPage()">Create
+				New Request</button>
+
+		</div>
+	</div>	
+	</div>
+	
+	<footer class="footer">
+	<div>
+	<p>Created and Designed by Puja Neupane</p> 
+    </div>
+</footer>
+
+	<script src="./js/employee.js"></script>
+
+
+</body>
+</html>
