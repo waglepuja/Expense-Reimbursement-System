@@ -18,3 +18,7 @@ List of features ready and TODOs for future development
 * Administrators can view all past requests from all users
 * Administrators can approve or deny pending requests and filter them by status
 
+To-do list:
+* Users can upload an image of their receipt when submitting reimbursement requests
+* Allow administrators to submit reimbursement requests for other administrators to approve or deny
+
